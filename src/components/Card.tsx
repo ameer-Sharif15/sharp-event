@@ -24,7 +24,7 @@ interface Props {
 const Card: React.FC<Props> = ({item, portrait, Key}) => {
   return (
     <div key={Key} className={`${portrait ? 'py-[13px] pl-[15px] gap-[8.07px] flex md:gap-[16px] ' : 'py-[11.6px] px-[12.6px] flex flex-col gap-[13.61px] hover:shadow-2xl rounded-2xl hover:-translate-y-1'}  `}>
-    <img src={item.img} alt="" className={`${portrait ? 'rounded-[9.58px] md:rounded-[19px] w-[101.89px] md:w-[202px]' : 'rounded-[16.16px] h-[171.86px] object-cover'}`} />
+    <img src={item.img} alt="" className={`${portrait ? 'rounded-[9.58px] md:rounded-[19px] w-[101.89px] md:w-[202px] object-cover' : 'rounded-[16.16px] h-[171.86px] object-cover'}`} />
     <div className={`${portrait ? 'flex justify-between w-full' : 'flex justify-between w-full '}  `}>
         <div className={`${portrait ? 'flex flex-col gap-[5.04px] py-[8.5px]' : 'flex flex-col gap-[8.51px]'} `}>
             <div className="flex flex-col gap-[4.25px]">

@@ -16,7 +16,6 @@ export const items = [
         rate: '9.2',
         price: '32',
         img: image_one
-        
     },
     {
         title: 'Oniru Event Center',
